@@ -4,43 +4,30 @@
 
 [Docker](https://www.docker.com/what-docker) image for [DBT-labs (former FishtownAnalytics) data build tool (DBT)](https://www.getdbt.com/product/).
 
-![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/xemuliam/dbt) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/xemuliam/dbt) ![Docker Pulls](https://img.shields.io/docker/pulls/xemuliam/dbt)
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/article1dataops/dbt) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/article1dataops/dbt) ![Docker Pulls](https://img.shields.io/docker/pulls/article1dataops/dbt)
 
 ## Important notice
 Since version 1.0.0 my images are optimized for two different architectures: **AMD 64** and **ARM 64**. Last one is really helpful for running on [Apple M1](https://en.wikipedia.org/wiki/Apple_M1) machines.
 
 
 ## Full
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/xemuliam/dbt/latest?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xemuliam/dbt/latest?color=brightgreen)   __= 1.3 = latest__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/xemuliam/dbt/1.2?color=yellowgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xemuliam/dbt/1.2?color=yellowgreen)   __= 1.2__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/xemuliam/dbt/1.1?color=yellow) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xemuliam/dbt/1.1?color=yellow)   __= 1.1__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/xemuliam/dbt/1.0?color=orange) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xemuliam/dbt/1.0?color=orange)    __= 1.0__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/xemuliam/dbt/0.21?color=red) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xemuliam/dbt/0.21?color=red)    __= 0.21__
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/latest?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/latest?color=brightgreen)   __= 1.4.5 = latest__
+
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.4?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.4?color=brightgreen)   __= 1.4.5__
+
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.3?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.3?color=brightgreen)   __= 1.3.2__
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.2?color=yellowgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.2?color=yellowgreen)   __= 1.2.5__
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.1?color=yellow) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.1?color=yellow)   __= 1.1.4__
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.0?color=orange) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.0?color=orange)    __= 1.0__
 
 ## Latest Spins
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/xemuliam/dbt/bigquery?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xemuliam/dbt/bigquery?color=blue)    __= 1.3-bigquery = bigquery__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/xemuliam/dbt/snowflake?label=Snowflake&color=lightblue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xemuliam/dbt/snowflake?color=lightblue)   __= 1.3-snowflake = snowflake__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/xemuliam/dbt/redshift?label=Redshift&color=orange) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xemuliam/dbt/redshift?color=orange)   __= 1.3-redshift = redshift__
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/bigquery?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/bigquery?color=blue)    __= 1.3-bigquery = bigquery__
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/snowflake?label=Snowflake&color=lightblue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/snowflake?color=lightblue)   __= 1.3-snowflake = snowflake__
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/redshift?label=Redshift&color=orange) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/redshift?color=orange)   __= 1.3-redshift = redshift__
 
 
-More images you can find on [tags page](https://hub.docker.com/r/xemuliam/dbt/tags?ordering=last_updated)
+More images you can find on [tags page](https://hub.docker.com/r/article1dataops/dbt/tags?ordering=last_updated)
 
-```
- ___________
-<    DBT    >
- -----------
-    \
-     \
-      \
-                    ##        .
-              ## ## ##       ==
-           ## ## ## ##      ===
-       /""""""""""""""""___/ ===
-  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
-       \______ o          __/
-        \    \        __/
-          \____\______/
-```
 
 # Overview
 The main idea is to give possibility to work with DBT without unnesessary components and via Docker way.
@@ -60,17 +47,11 @@ I've additionaly prepared three spins dedicated to main cloud datawarehouses sup
 
 And those spins are really tiny!
 
-__One spin__ I prepared especially to have the minimal size. It is based on [Alpine linux](https://alpinelinux.org) and contains Google BigQuery plugin only.
-
-![Docker Image Version (tag)](https://img.shields.io/docker/v/fishtownanalytics/dbt/0.19.2?color=orange&label=Official%20DBT%20image) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/fishtownanalytics/dbt/0.19.2?color=red&label=%20) __>>>__ ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/xemuliam/dbt/bigquery-alpine?color=green&label=%20) ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/xemuliam/dbt/bigquery-alpine?label=My%20Alpine-based%20image%20for%20BigQuery&color=blue)
-
-Feel the difference :)
-
 # What is DBT?
 
 dbt is a development environment that speaks the preferred language of data analysts everywhere—SQL. With dbt, analysts take ownership of the entire analytics engineering workflow, from writing data transformation code to deployment and documentation.
 
-![dbt diadram](https://d33wubrfki0l68.cloudfront.net/18774f02c29380c2ca7ed0a6fe06e55f275bf745/a5007/ui/img/svg/product.svg)
+![dbt diadram](https://user-images.githubusercontent.com/1247388/227546451-e643cfe3-b22d-46f8-a1f1-668a35b4c633.JPG)
 
 ## Official documentation and guides
 
@@ -84,9 +65,11 @@ You can build the image with desired plugins set and/or DBT version.
 
 ### Image building examples
 
-- `docker build -t myorg/dbt:bigquery --build-arg PLUGINS=bigquery - < ~/Projects/Docker/dbt/Dockerfile.multistage.universal`
+- `docker build -t myorg/dbt:bigquery --build-arg PLUGINS=bigquery .`
 
-- `docker build -t myogr/dbt:0.21 --build-arg VERSION='0.21.1' --build-arg PLUGINS='bigquery snowflake,redshift' - < ~/Projects/Docker/dbt/Dockerfile.multistage.universal`
+- `docker build -t myorg/dbt:0.21 --build-arg VERSION='0.21.1' --build-arg PLUGINS='bigquery snowflake,redshift' .`
+
+- `Get-Content Dockerfile-1.0 | docker build -t myorg/dbt:1.0 --build-arg VERSION='1.0.9' --build-arg PLUGINS='bigquery,snowflake,redshift' -`
 
 Just grab Dockerfile and build desired version and/or plugins list as build parametes.
 If no parameters will be passed into the build then image will be built using latest release version from [this page](https://github.com/dbt-labs/dbt-core/releases/latest) and following components:
@@ -102,5 +85,8 @@ Please use plugin name from **Install from PyPi** section (without `dbt-` prefix
 ## Important notice
 To avoid auto-downgrading of DBT-core version during outdated plugin installation, I've added strict condition that plugin's version must be equal to version of DBT-core.
 
+You need to edit the Dockerfile if you need to create your own 1.0 and 1.3 images as they are not compati
 
-# Enjoy! :)
+# This is a fork
+
+This project is a fork of xemulian dbt repository. We have decided to fork and maintain our own images because he refused our help to maintain and publish new images and we needed to stay up-to-date with the official dbt project.
