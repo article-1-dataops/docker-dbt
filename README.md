@@ -11,19 +11,17 @@ Since version 1.0.0 my images are optimized for two different architectures: **A
 
 
 ## Full
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/latest?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/latest?color=brightgreen)   __= 1.4.5 = latest__
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/latest?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/latest?color=brightgreen)
 
 - ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.4?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.4?color=brightgreen)   __= 1.4.5__
 
 - ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.3?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.3?color=brightgreen)   __= 1.3.2__
 - ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.2?color=yellowgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.2?color=yellowgreen)   __= 1.2.5__
 - ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.1?color=yellow) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.1?color=yellow)   __= 1.1.4__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.0?color=orange) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.0?color=orange)    __= 1.0__
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.0?color=orange) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.0?color=orange)    __= 1.0.8__
 
 ## Latest Spins
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/bigquery?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/bigquery?color=blue)    __= 1.3-bigquery = bigquery__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/snowflake?label=Snowflake&color=lightblue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/snowflake?color=lightblue)   __= 1.3-snowflake = snowflake__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/redshift?label=Redshift&color=orange) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/redshift?color=orange)   __= 1.3-redshift = redshift__
+- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.4?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.4)
 
 
 More images you can find on [tags page](https://hub.docker.com/r/article1dataops/dbt/tags?ordering=last_updated)
