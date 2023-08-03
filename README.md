@@ -13,15 +13,27 @@ Since version 1.0.0 my images are optimized for two different architectures: **A
 ## Full
 - ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/latest?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/latest?color=brightgreen)
 
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.4?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.4?color=brightgreen)   __= 1.4.5__
+- ![dbt 1.6 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.6?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.6?color=brightgreen)   __= 1.6.0__
 
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.3?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.3?color=brightgreen)   __= 1.3.2__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.2?color=yellowgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.2?color=yellowgreen)   __= 1.2.5__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.1?color=yellow) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.1?color=yellow)   __= 1.1.4__
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/1.0?color=orange) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.0?color=orange)    __= 1.0.8__
+- ![dbt 1.5 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.5?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.5?color=brightgreen)   __= 1.5.4__
 
-## Latest Spins
-- ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.4?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.4)
+- ![dbt 1.4 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.4?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.4?color=brightgreen)   __= 1.4.5__
+
+- ![dbt 1.3 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.3?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.3?color=brightgreen)   __= 1.3.2__
+
+- ![dbt 1.2 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.2?color=yellowgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.2?color=yellowgreen)   __= 1.2.5__
+
+- ![dbt 1.1 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.1?color=yellow) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.1?color=yellow)   __= 1.1.4__
+
+- ![dbt 1.0 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.0?color=orange) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.0?color=orange)    __= 1.0.8__
+
+## BigQuery Spins
+
+- ![BigQuery Spin 1.6](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.6?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.6)
+
+- ![BigQuery Spin 1.5](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.5?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.5)
+
+- ![BigQuery Spin 1.4](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.4?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.4)
 
 
 More images you can find on [tags page](https://hub.docker.com/r/article1dataops/dbt/tags?ordering=last_updated)
@@ -31,19 +43,6 @@ More images you can find on [tags page](https://hub.docker.com/r/article1dataops
 The main idea is to give possibility to work with DBT without unnesessary components and via Docker way.
 
 The image is more tiny than official one but provides the same functionality.
-
-## Spins
-DBT supports several plugins and full docker image contains all of them.
-
-However in most of cases we don't use such stuff because of technological lanscape in our work. Thus you don't need to work with unnecessary plugins and fuctionality.
-
-I've additionaly prepared three spins dedicated to main cloud datawarehouses supported by DBT (all other plugins have been removed at build stage):
-- [Google BigQuery](https://cloud.google.com/bigquery)
-- [Snowflake](https://www.snowflake.com/cloud-data-platform/)
-- [Amazon Redshift](https://aws.amazon.com/redshift)
-
-
-And those spins are really tiny!
 
 # What is DBT?
 
@@ -83,8 +82,10 @@ Please use plugin name from **Install from PyPi** section (without `dbt-` prefix
 ## Important notice
 To avoid auto-downgrading of DBT-core version during outdated plugin installation, I've added strict condition that plugin's version must be equal to version of DBT-core.
 
-You need to edit the Dockerfile if you need to create your own 1.0 and 1.3 images as they are not compati
+You need to edit the Dockerfile if you need to create your own 1.0 and 1.3 images as they are specifics to these minor versions.
 
-# This is a fork
+# This is a Fork !!
 
-This project is a fork of xemulian dbt repository. We have decided to fork and maintain our own images because he refused our help to maintain and publish new images and we needed to stay up-to-date with the official dbt project.
+**This project is a fork of xemulian dbt repository.**
+
+We have decided to fork and maintain our own images because [he ignored our help](https://github.com/xemuliam/docker-dbt/issues/6#issuecomment-1431428762) to maintain and publish new images and we needed to stay up-to-date with the official dbt project.
