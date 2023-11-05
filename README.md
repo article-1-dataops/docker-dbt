@@ -13,11 +13,13 @@ Since version 1.0.0 my images are optimized for two different architectures: **A
 ## Full
 - ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/latest?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/latest?color=brightgreen)
 
-- ![dbt 1.6 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.6?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.6?color=brightgreen)   __= 1.6.0__
+- ![dbt 1.7 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.7?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.7?color=brightgreen)   __= 1.7.0__
 
-- ![dbt 1.5 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.5?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.5?color=brightgreen)   __= 1.5.4__
+- ![dbt 1.6 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.6?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.6?color=brightgreen)   __= 1.6.7__
 
-- ![dbt 1.4 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.4?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.4?color=brightgreen)   __= 1.4.5__
+- ![dbt 1.5 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.5?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.5?color=brightgreen)   __= 1.5.9__
+
+- ![dbt 1.4 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.4?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.4?color=brightgreen)   __= 1.4.9__
 
 - ![dbt 1.3 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.3?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.3?color=brightgreen)   __= 1.3.2__
 
@@ -29,6 +31,8 @@ Since version 1.0.0 my images are optimized for two different architectures: **A
 
 ## BigQuery Spins
 
+- ![BigQuery Spin 1.7](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.7?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.7)
+
 - ![BigQuery Spin 1.6](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.6?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.6)
 
 - ![BigQuery Spin 1.5](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.5?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.5)
@@ -36,7 +40,7 @@ Since version 1.0.0 my images are optimized for two different architectures: **A
 - ![BigQuery Spin 1.4](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.4?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.4)
 
 
-More images you can find on [tags page](https://hub.docker.com/r/article1dataops/dbt/tags?ordering=last_updated)
+> All built docker images are on [Docker Hub](https://hub.docker.com/r/article1dataops/dbt/tags?ordering=last_updated)
 
 
 # Overview
