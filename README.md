@@ -7,15 +7,15 @@
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/article1dataops/dbt) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/article1dataops/dbt) ![Docker Pulls](https://img.shields.io/docker/pulls/article1dataops/dbt)
 
 ## Important notice
-Since version 1.0.0 my images are optimized for two different architectures: **AMD 64** and **ARM 64**. Last one is really helpful for running on [Apple M1](https://en.wikipedia.org/wiki/Apple_M1) machines.
+Since version 1.0.0, the Docker images are optimized for two different architectures: **AMD 64** and **ARM 64**. Last one is really helpful for running on [Apple M1](https://en.wikipedia.org/wiki/Apple_M1) machines.
 
 
 ## Full
 - ![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/article1dataops/dbt/latest?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/latest?color=brightgreen)
 
-- ![dbt 1.7 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.7?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.7?color=brightgreen)   __= 1.7.0__
+- ![dbt 1.7 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.7?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.7?color=brightgreen)   __= 1.7.4__
 
-- ![dbt 1.6 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.6?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.6?color=brightgreen)   __= 1.6.7__
+- ![dbt 1.6 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.6?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.6?color=brightgreen)   __= 1.6.9__
 
 - ![dbt 1.5 FULL](https://img.shields.io/docker/v/article1dataops/dbt/1.5?color=brightgreen) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt/1.5?color=brightgreen)   __= 1.5.9__
 

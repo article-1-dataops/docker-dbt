@@ -13,6 +13,7 @@ RUN         apt-get update && \
               build-essential \
               libpq-dev \
               gcc \
+              git \
               g++ \
               libsasl2-dev \
               unixodbc-dev \
