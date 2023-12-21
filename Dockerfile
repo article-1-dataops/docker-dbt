@@ -13,7 +13,6 @@ RUN         apt-get update && \
               build-essential \
               libpq-dev \
               gcc \
-              git \
               g++ \
               libsasl2-dev \
               unixodbc-dev \
@@ -44,5 +43,6 @@ RUN         cd ${DBT_HOME} && \
             pip --no-cache-dir install \
               --find-links ${DBT_HOME}/wheels \
               --no-index -r plugins.txt
+RUN         apt-get update && apt-get install -y git
 WORKDIR     ${DBT_HOME}
 CMD         ["dbt", "--version"]
