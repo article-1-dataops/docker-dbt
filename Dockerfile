@@ -1,4 +1,4 @@
-FROM        python:3.11-slim AS base
+FROM        python:3.12-slim AS base
 ENV         DBT_HOME=/usr/app \
             PYTHONIOENCODING=utf-8
 
@@ -43,6 +43,10 @@ RUN         cd ${DBT_HOME} && \
             pip --no-cache-dir install \
               --find-links ${DBT_HOME}/wheels \
               --no-index -r plugins.txt
-RUN         apt-get update && apt-get install -y git
+
+# Installation de git et dbt-coverage
+RUN         apt-get update && apt-get install -y git && \
+            pip install --no-cache-dir dbt-coverage
+
 WORKDIR     ${DBT_HOME}
 CMD         ["dbt", "--version"]

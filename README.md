@@ -31,6 +31,10 @@ Since version 1.0.0, the Docker images are optimized for two different architect
 
 ## BigQuery Spins
 
+- ![BigQuery Spin 1.9](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.9?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.9)
+
+- ![BigQuery Spin 1.8](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.8?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.8)
+
 - ![BigQuery Spin 1.7](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.7?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.7)
 
 - ![BigQuery Spin 1.6](https://img.shields.io/docker/v/article1dataops/dbt-bigquery/1.6?label=BigQuery&color=blue) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/article1dataops/dbt-bigquery/1.6)
@@ -69,8 +73,6 @@ You can build the image with desired plugins set and/or DBT version.
 - `docker build -t myorg/dbt:bigquery --build-arg PLUGINS=bigquery .`
 
 - `docker build -t myorg/dbt:0.21 --build-arg VERSION='0.21.1' --build-arg PLUGINS='bigquery snowflake,redshift' .`
-
-- `Get-Content Dockerfile-1.0 | docker build -t myorg/dbt:1.0 --build-arg VERSION='1.0.9' --build-arg PLUGINS='bigquery,snowflake,redshift' -`
 
 Just grab Dockerfile and build desired version and/or plugins list as build parametes.
 If no parameters will be passed into the build then image will be built using latest release version from [this page](https://github.com/dbt-labs/dbt-core/releases/latest) and following components:
